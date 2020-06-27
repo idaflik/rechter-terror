@@ -74,7 +74,7 @@ h1 {
 
 .toolTip1 {
   font-family: 'Poppins', sans-serif;
-  margin-left: 5px;
+  margin-left: 10px;
   position: absolute;
   display: none;
 
@@ -92,9 +92,9 @@ h1 {
   text-align: left;
   border-radius: 1px;
   box-shadow: 1px 1px 5px #e4e3ea; */
-  max-width: 20vw;
+  max-width: 15vw;
   font-weight: 700;
-  font-size: 1.5vw;
+  font-size: 2vh; /*  1.5vw; */
 }
 
 .source {
