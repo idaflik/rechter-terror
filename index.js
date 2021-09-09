@@ -1,7 +1,7 @@
- const marginLeft = ( 0.1 * window.innerWidth );
+const marginLeft = ( 0.1 * window.innerWidth );
 const marginRight = ( 0.2 * window.innerWidth );
 const marginTop = 0;
-const marginBottom = ( 0.05 * window.innerHeight);
+const marginBottom = 0; //( 0.05 * window.innerHeight)
 const width = ( 0.8 * window.innerWidth )- marginLeft - marginRight;
 const height = (window.innerHeight * 0.8) - marginTop - marginBottom;
 
