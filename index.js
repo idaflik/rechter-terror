@@ -39,7 +39,7 @@ var toolTip1 = d3.select("body")
 var list = d3.select("#list");
 
 
-d3.csv("https://raw.githubusercontent.com/idaflik/data/master/dates_attacks_new_1.csv",function(data){
+d3.csv("https://raw.githubusercontent.com/idaflik/data/master/dates_attacks.csv",function(data){
 
   data.forEach(function(d){
     d.date = parseDate(d.date);
